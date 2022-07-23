@@ -4,7 +4,7 @@
 
 Creamos un proyecto en google cloud platform:
 
-![Untitled](Monitoreo-challenge%2079fdc94769db49a7875ceceb2f5f4e4d/Untitled.png)
+![Untitled](Monitoreo-challenge/Untitled.png)
 
 Utilizamos la herramienta Cloud Shell Editor para configurar el cluster de kubernetes.
 
@@ -12,37 +12,37 @@ Comandos:
 
 1. Habilitamos Google Kubernetes Engine y Cloud Operations APIs para el proyecto creado
 
-![Untitled](Monitoreo-challenge%2079fdc94769db49a7875ceceb2f5f4e4d/Untitled%201.png)
+![Untitled](Monitoreo-challenge/Untitled%201.png)
 
 1. Clonamos el repositorio de github
 
-![Untitled](Monitoreo-challenge%2079fdc94769db49a7875ceceb2f5f4e4d/Untitled%202.png)
+![Untitled](Monitoreo-challenge/Untitled%202.png)
 
 1. Creamos un cluster de Google Kubernetes Engine
 
-![Untitled](Monitoreo-challenge%2079fdc94769db49a7875ceceb2f5f4e4d/Untitled%203.png)
+![Untitled](Monitoreo-challenge/Untitled%203.png)
 
 1. Desplegamos la aplicacion en el cluster
 
-![Untitled](Monitoreo-challenge%2079fdc94769db49a7875ceceb2f5f4e4d/Untitled%204.png)
+![Untitled](Monitoreo-challenge/Untitled%204.png)
 
 1. Validamos el status de los pods creados:
 
-![Untitled](Monitoreo-challenge%2079fdc94769db49a7875ceceb2f5f4e4d/Untitled%205.png)
+![Untitled](Monitoreo-challenge/Untitled%205.png)
 
 1. Obtenemos la IP externa para poder conectarnos al frontend de la web
 
-![Untitled](Monitoreo-challenge%2079fdc94769db49a7875ceceb2f5f4e4d/Untitled%206.png)
+![Untitled](Monitoreo-challenge/Untitled%206.png)
 
 1. Ingresamos a la web en [http://35.188.147.30/](http://35.188.147.30/) y podemos ver que esta funcionando correctamente.
 
-![Untitled](Monitoreo-challenge%2079fdc94769db49a7875ceceb2f5f4e4d/Untitled%207.png)
+![Untitled](Monitoreo-challenge/Untitled%207.png)
 
 ### 2. Instalacion de New relic en el cluster de kubernetes
 
 Usamos el comando proveido por new relic al seleccionar “Kubernetes”, en la consola
 
-![Untitled](Monitoreo-challenge%2079fdc94769db49a7875ceceb2f5f4e4d/Untitled%208.png)
+![Untitled](Monitoreo-challenge/Untitled%208.png)
 
 ```bash
 Starting installation.
